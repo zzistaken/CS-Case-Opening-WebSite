@@ -1,0 +1,91 @@
+.add-btn {
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid #45ce7f;
+    border-radius: 5px;
+    background-color: #45ce7e31;
+}
+.add-btn:hover {
+    background-color: #45ce7e48;
+}
+.add-btn a {
+    color: #45ce7f;
+    text-decoration: none;
+}
+.join-btn {
+    cursor: pointer;
+    height: 32px;
+    width: 60px;
+    border: 1px solid #ce454583;
+    border-radius: 5px;
+    background-color: #ce454500;
+    margin: 1rem;
+}
+.join-btn:hover {
+    background-color: #ce454548;
+}
+.join-btn a {
+    color: white;
+    text-decoration: none;
+}
+.open-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1897fe;
+    margin: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.open-btn:hover {
+    background-color: #1896feaf;
+}
+.open-btn a {
+    color: white;
+    text-decoration: none;
+}
+.up-btn {
+    color: white;
+    cursor: pointer;
+    height: 32px;
+    width: 60px;
+    border: 1px solid #1896fe6e;
+    border-radius: 5px;
+    background-color: #1896fe2d;
+}
+.up-btn:hover {
+    background-color: #1896fe6e;
+}
+.search-bar {
+    height: 30px;
+    width: 40%;
+    border: 1px solid #7581b25e;
+    background-color: #7581b218;
+    border-radius: 5px;
+    margin: 0.5rem;
+    color: white;
+    padding-left: 1rem;
+}
+.price-input {
+    height: 30px;
+    width: 20%;
+    border: 1px solid #7581b25e;
+    background-color: #7581b218;
+    border-radius: 5px;
+    margin: 0.5rem;
+    color: white;
+    padding-left: 1rem;
+}
+.payment-form input {
+    padding-left: 1rem;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #1896fe6e;
+    background-color: #1896fe2d;
+    margin: 0rem 0.5rem;
+    width: 100%;
+}

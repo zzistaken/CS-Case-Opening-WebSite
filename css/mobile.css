@@ -1,0 +1,87 @@
+/* NAVBAR */
+.navbar {
+    flex-direction: column;
+}
+.navbar ul li a {
+    color: white;
+    border-radius: 4px;
+    background-color: #7581b24f;
+    padding: 0.3rem 0.5rem;
+    margin: 0.3rem;
+}
+.navbar ul li a:hover {
+    border: none;
+}
+/* STATS */
+.stats .boxes {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stats .boxes .box {
+    width: 46%;
+}
+/* GIVEAWAYS */
+.giveaways {
+    flex-wrap: wrap;
+}
+.giveaways .giveaway {
+    width: 100%;
+    min-height: auto;
+}
+/* BANNER */
+.banner-image img {
+    max-width: 100%;
+}
+/* CASES */
+.cases .case {
+    height: 220px;
+    width: 210px;
+}
+/* FOOTER */
+footer {
+    justify-content: space-between;
+}
+.lastinfo .payment-methods {
+    flex-wrap: wrap;
+}
+footer .navigation h3 {
+    font-size: 1rem;
+}
+footer .navigation ul li a {
+    font-size: 0.9rem;
+}
+/* UPGRADE PAGE */
+.up-empty {
+    display: none;
+}
+.inv-target {
+    flex-direction: column;
+}
+.inv, .target {
+    width: 100%;
+}
+/* CASE OPENING PAGE */
+.open-area {
+    width: 100%;
+}
+/* PAYMENT PAGE */
+.paymentcard {
+    height: auto;
+    flex-direction: column;
+}
+.pay-methods {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+}
+.method {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.payment-form {
+    width: 96%;
+}
+#pay-form input {
+    width: 360px;
+}
