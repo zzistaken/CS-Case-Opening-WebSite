@@ -727,7 +727,7 @@ footer .navigation ul li a:hover {
 }
 .personal-inv {
     color: white;
-    min-height: 200px;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
