@@ -85,3 +85,15 @@ footer .navigation ul li a {
 #pay-form input {
     width: 360px;
 }
+/* PROFILE PAGE */
+.personalarea {
+    height: auto;
+    flex-direction: column;
+}
+.profileinfo, .otherinfo {
+    max-width: 100%;
+    width: 100%;
+}
+.profileinfo {
+    flex-direction: column;
+}

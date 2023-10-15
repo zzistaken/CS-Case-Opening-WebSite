@@ -63,41 +63,51 @@
     </nav>
 </header>
 <body>
-    
-    <div class="pay-page">
-        <div class="paymentcard">
-            <div class="pay-methods">
-                <div class="method">
-                    <img src="https://csgo-skins.com/images/payments/g2a.svg" alt="a">
-                    <h3>Credit Card</h3>
-                </div>
-                <div class="method">
-                    <img src="https://csgo-skins.com/images/payments/giftcard.svg" alt="b">
-                    <h3>Giftcard</h3>
-                </div>
-                <div class="method">
-                    <img src="https://csgo-skins.com/images/payments/skins.svg" alt="c">
-                    <h3>Skins</h3>
-                </div>
-                <div class="method">
-                    <img src="https://csgo-skins.com/images/payments/sms.svg" alt="d">
-                    <h3>SMS</h3>
-                </div>
+    <div class="personalarea">
+        <div class="profileinfo">
+            <div class="box1">
+                <img src="https://avatars.akamai.steamstatic.com/95a9030e4ec70eed45c2942424c79bcc4f15b2f4_full.jpg" alt="">
             </div>
-            <div class="payment-form">
-                <form action="" id="pay-form">
-                    <label for="name">Name</label><br>
-                    <input type="text" name="name" id="name"><br>
-                    <label for="card-number">Card Number</label><br>
-                    <input type="text" name="card-number" id="card-number"><br>
-                    <label for="CVV">CVV</label><br>
-                    <input type="text" name="cvv" id="cvv"><br>
-                    <label for="date">Date</label><br>
-                    <input type="month" name="date" id="date">
-                    <button class="open-btn" type="submit">Pay</button>
-                </form>
+            <div class="box2">
+                <h2>Zzistaken</h2>
+                <h4>#3151640</h4>
+                <button class="add-btn">
+                    <a href="add-funds.html">Add Funds</a>
+                </button>
             </div>
         </div>
+        <div class="otherinfo">
+            <div class="tradeinfo">
+                <label for="tradeurl">Trade URL:</label><br>
+                <input type="url" name="tradeurl" id="tradeurl" placeholder="https://steamcommunity.com/tradeoffer/new/?partner=1527602440&token=1x7Nsd6c">
+            </div>
+            <div class="setinfo">
+                <button class="new-btn">
+                    <a href="#">Operations on balance</a>
+                </button>
+                <button class="new-btn">
+                    <a href="#">Affilate system</a>
+                </button>
+                <button class="new2-btn">
+                    <a href="#"><i class="fa-solid fa-right-from-bracket fa-sm"></i>Log out</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="profileinvhead">
+        <div class="itemshead">
+            <button class="new-btn">
+                <a href="">Sell all for <i class="fa-solid fa-coins fa-sm"></i> 0.00</a>
+            </button>
+            <div class="availableitems">
+                <label for="showAvailableItems">Show not available items
+                </label>
+                <input type="checkbox" name="showAvailableItems" id="showAvailableItems">
+            </div>
+        </div>
+    </div>
+    <div class="personal-inv">
+        <h2>Your inventory is empty. Let's open some cases!</h2>
     </div>
 </body>
 <footer>

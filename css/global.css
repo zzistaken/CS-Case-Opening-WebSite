@@ -89,3 +89,34 @@
     margin: 0rem 0.5rem;
     width: 100%;
 }
+.new-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #cfcfcf31;
+    margin: 0.5rem;
+}
+.new-btn:hover {
+    background-color: #cccccc48;
+}
+.new-btn a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+.new2-btn {
+    background-color: #071b3a;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0.5rem;
+    border: none;
+}
+.new2-btn i {
+    padding: 0.2rem;
+}
+.new2-btn a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
