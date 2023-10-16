@@ -120,3 +120,14 @@
     color: #d3d3d3;
     text-decoration: none;
 }
+.log-input {
+    color: rgba(255, 255, 255, 0.801);
+    height: 36px;
+    width: 100%;
+    background-color: #1896fe13;
+    border: 1px solid #1897fe;
+    border-radius: 6px;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    font-size: large;
+}

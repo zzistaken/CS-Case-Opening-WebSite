@@ -48,66 +48,34 @@
                 </li>
             </ul>
             <div class="userarea">
-                <div class="balance">
-                    <h5>Zzistaken</h5>
-                    <p><i class="fa-solid fa-coins fa-sm"></i>100</p>
-                </div>
-                <button class="add-btn">
-                    <a href="add-funds.html">Add Funds +</a>
+                <button class="open-btn">
+                    <a href="profile.html">Log in</a>
                 </button>
-                <a href="profile.html">
-                    <img src="https://avatars.cloudflare.steamstatic.com/95a9030e4ec70eed45c2942424c79bcc4f15b2f4_full.jpg" alt="Profile-Photo">
-                </a>
             </div>
         </div>
     </nav>
 </header>
 <body>
-    <div class="personalarea">
-        <div class="profileinfo">
-            <div class="box1">
-                <img src="https://avatars.akamai.steamstatic.com/95a9030e4ec70eed45c2942424c79bcc4f15b2f4_full.jpg" alt="">
-            </div>
-            <div class="box2">
-                <h2>Zzistaken</h2>
-                <h4>#3151640</h4>
-                <button class="add-btn">
-                    <a href="add-funds.html">Add Funds</a>
-                </button>
-            </div>
-        </div>
-        <div class="otherinfo">
-            <div class="tradeinfo">
-                <label for="tradeurl">Trade URL:</label><br>
-                <input type="url" name="tradeurl" id="tradeurl" placeholder="https://steamcommunity.com/tradeoffer/new/?partner=1527602440&token=1x7Nsd6c">
-            </div>
-            <div class="setinfo">
-                <button class="new-btn">
-                    <a href="#">Operations on balance</a>
-                </button>
-                <button class="new-btn">
-                    <a href="#">Affilate system</a>
-                </button>
-                <button class="new2-btn">
-                    <a href="login.html"><i class="fa-solid fa-right-from-bracket fa-sm"></i>Log out</a>
-                </button>
+    <div class="loginpage">
+        <div class="logincard">
+            <img src="images/Logo.svg" alt="">
+            <h2>Log in</h2>
+            <form action="" id="log-form">
+                <label for="username">Username</label><br>
+                <input class="log-input" type="text" name="username" id="username"><br>
+                <label for="password">Password</label><br>
+                <input class="log-input"type="password" name="password" id="password"><br>
+                <a href="#"><h5>Forgot password?</h5></a>
+                <button class="open-btn" type="submit"><a href="profile.html">Log in</a></button>
+            </form>
+            <h4>or</h4>
+            <div class="log-icons">
+                <i class="fa-brands fa-steam fa-xl"></i>
+                <i class="fa-brands fa-google fa-xl"></i>
+                <i class="fa-brands fa-facebook fa-xl"></i>
+                <i class="fa-brands fa-discord fa-xl"></i>
             </div>
         </div>
-    </div>
-    <div class="profileinvhead">
-        <div class="itemshead">
-            <button class="new-btn">
-                <a href="">Sell all for <i class="fa-solid fa-coins fa-sm"></i> 0.00</a>
-            </button>
-            <div class="availableitems">
-                <label for="showAvailableItems">Show not available items
-                </label>
-                <input type="checkbox" name="showAvailableItems" id="showAvailableItems">
-            </div>
-        </div>
-    </div>
-    <div class="personal-inv">
-        <h2>Your inventory is empty. Let's open some cases!</h2>
     </div>
 </body>
 <footer>

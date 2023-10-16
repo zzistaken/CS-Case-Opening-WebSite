@@ -97,3 +97,10 @@ footer .navigation ul li a {
 .profileinfo {
     flex-direction: column;
 }
+/* LOGIN PAGE */
+.loginpage {
+    min-height: auto;
+}
+#log-form {
+    width: 70%;
+}

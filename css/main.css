@@ -736,3 +736,58 @@ footer .navigation ul li a:hover {
     text-align: center;
     color: rgba(255, 255, 255, 0.466);
 }
+.availableitems input {
+    width: 20px;
+    border: none;
+}
+/* LOGIN PAGE */
+.loginpage {
+    background: rgb(26,53,110);
+    background: radial-gradient(circle, rgba(26,53,110,1) 0%, rgba(7,32,74,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+.logincard {
+    margin: 0.5rem;
+    background-color: #081b3b;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 650px;
+    color: white;
+}
+.logincard img {
+    margin: 0.5rem;
+    width: 100px;
+    padding: 1rem 0;
+}
+#log-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#log-form a {
+    text-decoration: none;
+}
+#log-form a h5 {
+    color: #7581b2;
+    text-decoration: none;
+}
+.log-icons {
+    margin: 2rem;
+}
+.log-icons i{
+    cursor: pointer;
+    padding: 0.1rem;
+}
+.log-icons i:hover {
+    color: #00bbe9;
+}
