@@ -1,4 +1,6 @@
 .add-btn {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     height: 40px;
     border: 1px solid #45ce7f;

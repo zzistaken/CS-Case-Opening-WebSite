@@ -104,3 +104,18 @@ footer .navigation ul li a {
 #log-form {
     width: 70%;
 }
+/* CASE BATTLE PAGE */
+.btjoined img {
+    height: 24px;
+}
+.battle-value h3 {
+    font-size: 0.8rem;
+    color: #00ff6a98;
+}
+.battle-value i {
+    font-size: 0.7rem;
+    color: #00ff6a98;
+}
+.bt-btn {
+    font-size: 0.7rem;
+}

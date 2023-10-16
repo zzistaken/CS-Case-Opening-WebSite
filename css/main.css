@@ -791,3 +791,79 @@ footer .navigation ul li a:hover {
 .log-icons i:hover {
     color: #00bbe9;
 }
+/* CASE BATTLE PAGE */
+.battlepagemain {
+    display: flex;
+    justify-content: center;
+}
+.casebattlepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.battlepagehead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    color: white;
+    text-decoration: underline #00bbe9;
+    border-bottom: 1px solid #00bae92c;
+}
+.battleheaders {
+    margin: 0.5rem;
+    border-radius: 10px;
+    background-color: #081b3b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.battleheaders i {
+    color: white;
+}
+.active-battles {
+    margin: 0.5rem;
+}
+.battle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    border: 1px solid #00bae934;
+    padding: 0 1rem;
+    color: white;
+}
+.battle img {
+    margin: 0.5rem;
+    height: 60px;
+}
+#battle-no {
+    border: 1px solid #00bbe9;
+    background-color: #00bae980;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+}
+.battle-value {
+    background-color: #45ce7e33;
+    border-radius: 6px;
+}
+.battle-value h3 {
+    font-size: 1rem;
+    color: #00ff6a98;
+}
+.battle-value i {
+    font-size: 1rem;
+    color: #00ff6a98;
+}
+.btjoined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btjoined img {
+    height: 32px;
+    border-radius: 50%;
+}
