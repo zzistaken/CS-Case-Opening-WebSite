@@ -239,15 +239,25 @@ nav {
     background-color: #0c2345;
 }
 .banner-image {
+    display: flex;
+    align-items: center;
     height: 400px;
-    background: url(https://csgo-skins.com/images/event/banner/background.jpg);
-    background-size: cover;
+    background: url(https://csgo-skins.com/images/containers/banner.jpg);
+    background-size:cover ;
     margin: 1rem 0.5rem;
     border-radius: 10px;
+    border: 1px solid #7581b265;
+}
+.banner-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .banner img {
     padding: 0.5rem;
 }
+
 /* CASES */
 .cases {
     display: flex;
@@ -255,7 +265,7 @@ nav {
     flex-wrap: wrap;
     padding: 0.5rem;
 }
-.cases .case {
+.case {
     position: relative;
     width: 250px;
     height: 240px;
@@ -273,11 +283,34 @@ nav {
 .cases a {
     text-decoration: none;
 }
+.banner-info .case:hover {
+    background-color: #e9000083;
+    border: 1px solid rgba(233, 0, 0, 0.439);
+}
+.banner-info .case {
+    color: white;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text h1 {
+    font-style: bold;
+    font-size: 4rem;
+    color: rgb(255, 0, 55);
+}
+.banner-text h2 {
+    font-style: bold;
+    font-size: 2rem;
+    color: white
+}
 .cases .case:hover {
     background-color: #00bae983;
     border: 1px solid #00bae970;
 }
-.cases .case img {
+.case img {
     width: 100%;
 }
 .cases .case h4 {
