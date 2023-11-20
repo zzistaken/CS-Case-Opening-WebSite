@@ -608,6 +608,7 @@ footer .navigation ul li a:hover {
 .pay-page {
     display: flex;
     justify-content: center;
+    padding: 2rem;
 }
 .paymentcard {
     height: 70vh;
@@ -621,6 +622,7 @@ footer .navigation ul li a:hover {
 .pay-methods {
     background-color: #071329;
     display: flex;
+    height: 92%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -643,8 +645,7 @@ footer .navigation ul li a:hover {
     border: 1px solid #009fe970;
 }
 .method img {
-    height: 30px;
-    width: 180px;
+    height: 50px;
 }
 .method h3 {
     font-size: 1rem;
@@ -655,6 +656,7 @@ footer .navigation ul li a:hover {
     justify-content: center;
     align-items: center;
     color: white;
+    height: 92%;
     width: 100%;
     margin: 0.5rem;
     border-radius: 10px;
